@@ -12,12 +12,12 @@ dependencies:
   - gdal=3.*
   - geographiclib=1.*
   - geojson=2.5.*
-  - geopandas=0.9.*
+  - geopandas=0.8.*
   - geoplot=0.4.*
   - geopy=2.0.*
   - geos=3.8.*
-  - geoviews=1.8.*
-  - holoviews=1.13.*
+  - geoviews=1.*
+  - holoviews=1.*
   - ipykernel=5.*
   - ipython=7.*
   - ipywidgets=7.*
