@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - cartopy=0.*
+  - cartopy
   - descartes=1.*
   - earthpy
   - esda=2.*
@@ -16,8 +16,6 @@ dependencies:
   - geoplot=0.4.*
   - geopy=2.0.*
   - geos=3.8.*
-  - geoviews=1.*
-  - holoviews=1.*
   - ipykernel=5.*
   - ipython=7.*
   - ipywidgets=7.*
