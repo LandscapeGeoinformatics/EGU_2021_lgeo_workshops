@@ -23,3 +23,6 @@ Workshop materials for EGU General Assembly 2021 sessions:
 
 Creative Commons Attribution-ShareAlike 4.0 [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
+## Launch demo
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LandscapeGeoinformatics/EGU_2021_lgeo_workshops/HEAD?filepath=SC5.2%2FEGU%20Workshop_sc52.ipynb)

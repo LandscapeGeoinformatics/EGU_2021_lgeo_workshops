@@ -1,0 +1,44 @@
+name: geopy2020
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy=0.*
+  - descartes=1.*
+  - earthpy
+  - esda=2.*
+  - fiona=1.*
+  - folium=0.*
+  - gdal=3.*
+  - geographiclib=1.*
+  - geojson=2.5.*
+  - geopandas=0.9.*
+  - geoplot=0.4.*
+  - geopy=2.0.*
+  - geos=3.8.*
+  - geoviews=1.8.*
+  - holoviews=1.13.*
+  - ipykernel=5.*
+  - ipython=7.*
+  - ipywidgets=7.*
+  - jupyter=1.0.*
+  - jupyterlab=2.*
+  - mapclassify=2.*
+  - matplotlib=3.*
+  - notebook
+  - numpy=1.19.*
+  - owslib=0.22.*
+  - pandas=1.*
+  - pillow=7.*
+  - proj=7.2.*
+  - pyproj=2.*
+  - pysal=2.*
+  - python=3.8.*
+  - rasterio=1.*
+  - rasterstats
+  - requests=2.*
+  - scikit-learn
+  - scipy=1.*
+  - seaborn=0.*
+  - shapely=1.*
+  - urllib3=1.*
