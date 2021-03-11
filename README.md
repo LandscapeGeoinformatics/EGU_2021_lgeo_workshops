@@ -1,4 +1,4 @@
-# EGU 2021 Landscape Geoinformatics Workshops
+# EGU 2021 Landscape Geoinformatics (c) Workshops
 
 Workshop materials for EGU General Assembly 2021 sessions:
 
