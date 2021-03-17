@@ -42,3 +42,4 @@ dependencies:
   - seaborn=0.11.*
   - shapely=1.7.*
   - urllib3=1.24.*
+  - geocube=0.0.*
