@@ -3,12 +3,14 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - aiohttp=3.*
   - cartopy=0.18.*y
   - descartes=1.1.*
   - earthpy=0.9.*
   - esda=2.3.*
   - fiona=1.8.*
   - folium=0.11.*
+  - fsspec=0.8.7
   - gdal=3.1.*
   - geographiclib=1.*
   - geojson=2.5.*
@@ -16,6 +18,9 @@ dependencies:
   - geoplot=0.4.*
   - geopy=2.0.*
   - geos=3.8.*
+  - intake
+  - intake-xarray
+  - instake-stac
   - ipykernel=5.3.*
   - ipython=7.18.*
   - ipywidgets=7.5.*
@@ -35,7 +40,6 @@ dependencies:
   - python=3.7.*
   - rasterio=1.1.*
   - rasterstats=0.14.*
-  - xarray
   - requests=2.24.*
   - scikit-image=0.17.*
   - scikit-learn=0.23.*
@@ -43,5 +47,4 @@ dependencies:
   - seaborn=0.11.*
   - shapely=1.7.*
   - urllib3=1.24.*
-  - intake
-  - aiohttp=3.*
+  - xarray
