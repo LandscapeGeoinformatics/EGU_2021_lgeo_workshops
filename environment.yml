@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - aiohttp=3.*
-  - cartopy=0.18.*y
+  - cartopy=0.18.*
   - descartes=1.1.*
   - earthpy=0.9.*
   - esda=2.3.*
@@ -20,7 +20,7 @@ dependencies:
   - geos=3.8.*
   - intake
   - intake-xarray
-  - instake-stac
+  - intake-stac
   - ipykernel=5.3.*
   - ipython=7.18.*
   - ipywidgets=7.5.*
