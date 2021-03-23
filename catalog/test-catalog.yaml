@@ -1,0 +1,21 @@
+metadata:
+    version: 1
+sources:
+    reola_flow:
+        driver: csv
+        args:
+            csv_kwargs:
+                sep: ";"
+            urlpath: https://www.ilmateenistus.ee/wp-content/uploads/2020/09/Reola-1986-2019.csv
+    eest_dem_z19:
+        driver: rasterio
+        cache:
+          - argkey: urlpath
+            regex: 'est-topo-mtr/dem_5m_pzone'
+            type: file
+        args:
+            urlpath: https://storage.googleapis.com/geo-assets/est-topo-mtr/dem_5m_pzone/dem_5m_pzone_19_cog.tif
+    # eest_topo_stac:
+    #     driver: stac_catalog
+    #     args:
+    #         urlpath: https://storage.googleapis.com/geo-assets/est-topo-mtr-stac/catalog.json
