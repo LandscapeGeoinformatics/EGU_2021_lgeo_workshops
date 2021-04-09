@@ -1,0 +1,11 @@
+sources:
+    monthly_precip_baltics:
+        description: Monthly precipitation data for the Baltics
+        driver: netcdf
+        args:
+            urlpath: 'https://owncloud.ut.ee/owncloud/index.php/s/pcNtgXZaY6mxdcg/download'
+    monthly_temp_baltics:
+        description: Monthly temperature data for the Baltics
+        driver: netcdf
+        args:
+            urlpath: 'https://owncloud.ut.ee/owncloud/index.php/s/EHEWXe5zJSEpaDb/download'
