@@ -1,0 +1,63 @@
+sources:
+  atm_params:
+    args:
+      urlpath: https://owncloud.ut.ee/owncloud/index.php/s/RJefY58gpaNakyg/download?path=%2Fbands&files=atm_corr_params.txt&downloadStartSecret=82wiy6wewlp
+    description: 'atmospheric correction parameters'
+    driver: intake.source.textfiles.TextFilesSource
+    metadata: {}
+    
+  grids_1000_utm:
+    args:
+      urlpath: https://owncloud.ut.ee/owncloud/index.php/s/RJefY58gpaNakyg/download?path=%2Fgrids&files=grids_1000_utm.geojson&downloadStartSecret=y9urwj025nb
+    description: '1km population grids'
+    driver: intake_geopandas.geopandas.GeoPandasFileSource
+    metadata: {}
+        
+  stacked_bands:
+    args:
+      urlpath: https://owncloud.ut.ee/owncloud/index.php/s/RJefY58gpaNakyg/download?path=%2Fbands&files=bands_clipped.tif     
+    description: 'stacked bands 3,4,5,10'
+    driver: intake_xarray.raster.RasterIOSource
+    metadata:
+      AREA_OR_POINT: Area
+      array: raster
+      coords: !!python/tuple
+      - band
+      - y
+      - x
+      crs: +init=epsg:32634
+      data_vars:
+        raster:
+        - band
+        - y
+        - x
+      dims:
+        band: 4
+        x: 7981
+        y: 8061
+      nodatavals: !!python/tuple
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      offsets: !!python/tuple
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      res: !!python/tuple
+      - 30.0
+      - 30.0
+      scales: !!python/tuple
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      transform: !!python/tuple
+      - 30.0
+      - 0.0
+      - 526485.0
+      - 0.0
+      - -30.0
+      - 6785115.0
+        
