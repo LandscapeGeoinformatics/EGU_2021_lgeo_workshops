@@ -25,6 +25,6 @@ Creative Commons Attribution-ShareAlike 4.0 [CC-BY-SA-4.0](https://creativecommo
 
 ## Launch notebook demo
 
-- SC5.2 EDI [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LandscapeGeoinformatics/EGU_2021_lgeo_workshops/HEAD?filepath=SC5.2%2FEGU_Workshop_sc52.ipynb)
+- SC5.2 EDI [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LandscapeGeoinformatics/EGU_2021_lgeo_workshops/HEAD?filepath=SC5.2%2FEGU_workshop_sc52.ipynb)
 
 - SC5.8 EDI [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LandscapeGeoinformatics/EGU_2021_lgeo_workshops/HEAD?filepath=SC5.8%2FEGU2021_Workshop_SC58.ipynb)
