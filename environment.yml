@@ -50,3 +50,6 @@ dependencies:
   - xarray
   - geocube=0.0.16
   - intake-geopandas
+  - h5netcdf
+  - rioxarray
+  - pymannkendall
