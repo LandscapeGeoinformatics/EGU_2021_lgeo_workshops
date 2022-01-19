@@ -1,5 +1,7 @@
 # EGU 2021 Landscape Geoinformatics Workshops
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5876348.svg)](https://doi.org/10.5281/zenodo.5876348)
+
 Workshop materials for EGU General Assembly 2021 sessions:
 
 - [SC5.2 EDI](https://meetingorganizer.copernicus.org/EGU21/session/38947): Satellite image processing using Python programming, Alexander Kmoch, Isaac Buo, Holger Virro, Evelyn Uuemaa
