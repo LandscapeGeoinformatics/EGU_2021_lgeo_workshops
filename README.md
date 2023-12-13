@@ -8,7 +8,7 @@ Workshop materials for EGU General Assembly 2021 sessions:
 
 - [SC5.8 EDI](https://meetingorganizer.copernicus.org/EGU21/session/38935): Spatio-temporal trend analysis of spatial climate data (temperature and rainfall) using Python, Alexander Kmoch, Bruno Montibeller, Holger Virro, Evelyn Uuemaa
 
-- [Landscape Geoinformatics, UT](https://landscape-geoinformatics.ut.ee/home-0)
+- [Landscape Geoinformatics, UT](https://landscape-geoinformatics.ut.ee/)
 
     Isaac Buo <a href="https://orcid.org/0000-0002-6211-4957"><img src="orcid_icon.png" width="12px" height="12px" /></a>
 
